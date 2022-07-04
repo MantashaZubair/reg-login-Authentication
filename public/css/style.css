@@ -1,0 +1,171 @@
+
+#nav {
+    width: 100%;
+height: 50px;
+background-color: darkslategray;
+}
+#nav ul{
+    list-style-type: none;
+    margin: auto;
+    padding-top: 16px;
+    
+    
+}
+.mypage{
+ 
+    color: chocolate; 
+    font-size: 22px;
+    float: left; 
+    margin-right: 20px;
+    margin-bottom: 22px;
+}
+#nav ul li{
+    float: left;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+
+    
+
+   
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    color: aliceblue;
+   
+}
+#nav ul li a:hover{
+    background-color: dimgray;
+    border-radius: 25px;
+}
+
+/* for resistration page*/
+
+
+/* forlogin page*/
+
+.center{
+    position: absolute;
+top: 20%;
+left: 40%;
+transform: translate;
+transform: translate(-50,-50);
+width: 400px;
+background: chocolate;
+border-radius: 10px;
+
+}
+.center h2{
+    text-align: center;
+padding: 0 0 20px 0;
+border-bottom: 1px solid cornsilk;
+}
+.center form{
+    box-sizing: border-box;
+padding: 0 40px;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid cornsilk;
+    margin: 30px 0;
+}
+.txt_field input {
+    width: 100%;
+padding: 0 5px;
+height: 40px;
+font-size: 16px;
+border: none;
+background: none;
+outline: none;
+}
+.txt_field label{
+    position: absolute;
+top: 50%;
+left: 5px;
+color: darkgray;
+transform: translateY(-50%);
+
+pointer-events: none;
+    
+}
+.txt_field span::before{
+contain: "";
+position: absolute;
+top: 40px;
+left: 0;
+width: 100%;
+height: 2px;
+background: darkgrey;
+transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: antiquewhite;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+   
+    cursor: pointer;
+    
+}
+.pass a{
+    
+    color: rgb(17, 113, 117);
+    text-decoration: none;
+}
+.pass a:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+     background-color: rgba(30, 131, 255, 0.849);
+     border-radius: 25px;
+     font-size: 18px;
+     color: azure;
+     cursor: pointer;
+     font-weight: 700;
+     outline: none;
+     margin: 30px 0;
+
+}
+input[type="submit"]:hover{
+    border-color: rgba(30, 131, 255, 0.849);
+    transition: -5s;
+
+}
+.signup_link{
+margin: 30px 0;
+text-align: center;
+font-size: 16px;
+color:floralwhite;
+}
+.signup_link a{
+    color:  rgb(17, 113, 117);
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+
+
+/*DAshboard */
+
+body {
+    background-color: cadetblue;
+    
+}
+.dash h1{
+    color: chocolate;
+}
